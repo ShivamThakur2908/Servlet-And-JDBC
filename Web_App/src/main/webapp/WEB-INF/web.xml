@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Web_Project</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>Servlet1</servlet-name>
+  <servlet-class>com.Resource.Add</servlet-class>
+  </servlet>
+  <servlet-mapping><servlet-name>Servlet1</servlet-name>
+  <url-pattern>/Adds</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Servlet2</servlet-name>
+  <servlet-class>com.Resource.Fetch</servlet-class>
+  </servlet>
+  <servlet-mapping><servlet-name>Servlet2</servlet-name>
+  <url-pattern>/Fetch</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Servlet3</servlet-name>
+  <servlet-class>com.Resource.Update</servlet-class>
+  </servlet>
+  <servlet-mapping><servlet-name>Servlet3</servlet-name>
+  <url-pattern>/Update</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Servlet4</servlet-name>
+  <servlet-class>com.Resource.Delete</servlet-class>
+  </servlet>
+  <servlet-mapping><servlet-name>Servlet4</servlet-name>
+  <url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Servlet5</servlet-name>
+  <servlet-class>com.Resource.AddRecords</servlet-class>
+  </servlet>
+  <servlet-mapping><servlet-name>Servlet5</servlet-name>
+  <url-pattern>/AddRecords</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Servlet6</servlet-name>
+  <servlet-class>com.Resource.FetchRecords</servlet-class>
+  </servlet>
+  <servlet-mapping><servlet-name>Servlet6</servlet-name>
+  <url-pattern>/FetchRecords</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Servlet7</servlet-name>
+  <servlet-class>com.Resource.UpdateRecords</servlet-class>
+  </servlet>
+  <servlet-mapping><servlet-name>Servlet7</servlet-name>
+  <url-pattern>/UpdateRecords</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Servlet8</servlet-name>
+  <servlet-class>com.Resource.DeleteRecords</servlet-class>
+  </servlet>
+  <servlet-mapping><servlet-name>Servlet8</servlet-name>
+  <url-pattern>/DeleteRecords</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
